@@ -24,7 +24,7 @@ function CardContent() {
           <ProfileHeader />
 
           {/* Minimal toggle back to view QR code */}
-          <div className="pt-2">
+          {/* <div className="pt-2">
             <button
               onClick={() => setIsScanned(false)}
               type="button"
@@ -33,7 +33,7 @@ function CardContent() {
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Back to QR Code</span>
             </button>
-          </div>
+          </div> */}
         </div>
       ) : (
         /* BEFORE SCANNING: Show ONLY QR Code */
