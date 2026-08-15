@@ -19,7 +19,7 @@ export const metadata = {
   title: `${businessDetails.personName} - ${businessDetails.businessName}`,
   description: `Official Digital Business Card for ${businessDetails.businessName}. Owner: ${businessDetails.personName}. Call, WhatsApp, locate store & view opening hours.`,
   keywords: [
-    "Dashmesh Medical Store",
+    "Dashmesh Medical Hall",
     "Vikram Singh",
     "Medical Store",
     "Pharmacy",
