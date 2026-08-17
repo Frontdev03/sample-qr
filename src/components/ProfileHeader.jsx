@@ -13,14 +13,14 @@ export default function ProfileHeader() {
         </div>
       </div>
 
-      {/* Person & Store Titles */}
+      {/* Store & Person Titles */}
       <div className="space-y-1.5 px-2">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          {businessDetails.personName}
+          {businessDetails.businessName}
         </h1>
 
         <div className="inline-block px-3 py-1 rounded-full bg-emerald-900 text-white text-xs font-semibold tracking-wider uppercase shadow-xs">
-          {businessDetails.businessName}
+          {businessDetails.personName}
         </div>
 
         {/* Tagline - Commented out for now */}
